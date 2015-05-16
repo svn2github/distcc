@@ -1,5 +1,7 @@
 *.o
 *.d
+*.pyc
+*.pyo
 
 # binaries
 distcc
@@ -18,6 +20,7 @@ lzo/.stamp-conf
 popt/.stamp-conf
 src/config.h
 src/config.h.in
+src/config.h.stamp
 
 # other excludes
 _include_server/
